@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Staatliches&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rock {
+  font-family: 'Rock Salt';
+
+}
+.staat {
+  font-family: 'Staatliches'  ;}
+
+  .bg-img{
+    background-image:url("/bg.webp");
+  }
+  .heading2{
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: url(https://media2.giphy.com/media/HkEDr0jVekaZO/giphy.gif?cid=790b76115151ed408a9cae4539eb6351baba5d85998ab783&ct=g&rid=giphy.gif
+    );
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    position: relative;
+  }
+  #card1 {
+
+    transform: rotate(-12deg);
+    
+    transition: 0.5s;
+   
+  }
+  #card2 {
+  
+    transform: rotate(12deg);
+    transition: 0.5s;
+   
+  }
+.trans{
+  transform: translate( -50% , -30% );
+}
